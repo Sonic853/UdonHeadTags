@@ -263,8 +263,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 8631860912165081879}
-  bgUI: {fileID: 0}
-  textUI: {fileID: 0}
+  bgUI: {fileID: 1110621147981044008}
+  textUI: {fileID: 4205793374986538816}
 --- !u!114 &8631860912165081879
 MonoBehaviour:
   m_ObjectHideFlags: 0
