@@ -15,7 +15,6 @@ namespace Sonic853.Udon.HeadTags
         /// 离头部的Y轴距离
         /// </summary>
         public float headDistance;
-        Tag tagPrefab => tagsManager.tagPrefab;
         public RectTransform tagsContent;
         public Tag[] tags;
         // public string[] tags;
@@ -64,7 +63,7 @@ namespace Sonic853.Udon.HeadTags
                     var item = _tags[i].DataDictionary;
                     if (!item.TryGetValue(i18n, out var tagToken))
                         item.TryGetValue("n", out tagToken);
-                    var tag = (Tag)Instantiate(tagPrefab.gameObject, tagsContent).GetComponent(typeof(UdonBehaviour));
+                    var tag = (Tag)Instantiate(tagsManager.tagPrefab.gameObject, tagsContent).GetComponent(typeof(UdonBehaviour));
                     tag.textUI.text = tagToken.String;
                     tag.textUI.color = Color.white;
                     if (item.TryGetValue("b", out var bgcolorToken))

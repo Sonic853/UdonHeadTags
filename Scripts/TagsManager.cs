@@ -1,6 +1,5 @@
 ﻿
 using System;
-using Sonic853.Udon.ArrayPlus;
 using UdonSharp;
 using UnityEngine;
 using UnityEngine.UIElements;

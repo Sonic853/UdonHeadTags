@@ -56,7 +56,7 @@ MonoBehaviour:
     SerializationNodes: []
   _udonSharpBackingUdonBehaviour: {fileID: 4678984619189433800}
   tagsInfoPrefab: {fileID: 5663461983904803538, guid: 9f71285f29c6a9146b954dc62d824915, type: 3}
-  tagPrefab: {fileID: 8689195990722824204, guid: 7dd0cd6989753a64ea057fabaec455fb, type: 3}
+  tagPrefab: {fileID: 231658427652503990, guid: 7dd0cd6989753a64ea057fabaec455fb, type: 3}
   tagsInfos: []
   haveTagsPlayerNames: []
   localData: {fileID: 0}

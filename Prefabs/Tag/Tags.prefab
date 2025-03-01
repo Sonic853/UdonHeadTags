@@ -139,7 +139,6 @@ MonoBehaviour:
   tagsManager: {fileID: 0}
   target: {fileID: 896706327558739324}
   headDistance: 0.5
-  tagPrefab: {fileID: 8689195990722824204, guid: 7dd0cd6989753a64ea057fabaec455fb, type: 3}
   tagsContent: {fileID: 4277696770387858423}
   tags: []
 --- !u!114 &328256182268020378
