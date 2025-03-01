@@ -743,10 +743,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2423457809007982321, guid: 9ceeceedf4a99f445a7eda7b4261e494, type: 3}
-      propertyPath: localData
+    - target: {fileID: 2362356098105379158, guid: 9ceeceedf4a99f445a7eda7b4261e494, type: 3}
+      propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 4900000, guid: ee7dff03721ed0447b0fdeec3c0ab8a0, type: 3}
+      objectReference: {fileID: 2362356098105379158, guid: 9ceeceedf4a99f445a7eda7b4261e494, type: 3}
     - target: {fileID: 2423457809007982321, guid: 9ceeceedf4a99f445a7eda7b4261e494, type: 3}
       propertyPath: serializationData.Prefab
       value: 
@@ -795,6 +795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TagsManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8744995878100711754, guid: 9ceeceedf4a99f445a7eda7b4261e494, type: 3}
+      propertyPath: serializationData.Prefab
+      value: 
+      objectReference: {fileID: 8744995878100711754, guid: 9ceeceedf4a99f445a7eda7b4261e494, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -64,6 +64,7 @@ namespace Sonic853.Udon.HeadTags
                     if (!item.TryGetValue(i18n, out var tagToken))
                         item.TryGetValue("n", out tagToken);
                     var tag = (Tag)Instantiate(tagsManager.tagPrefab.gameObject, tagsContent).GetComponent(typeof(UdonBehaviour));
+                    tag.gameObject.SetActive(true);
                     tag.textUI.text = tagToken.String;
                     tag.textUI.color = Color.white;
                     if (item.TryGetValue("b", out var bgcolorToken))

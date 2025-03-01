@@ -61,6 +61,7 @@ namespace Sonic853.Udon.HeadTags
                 var haveTagsPlayerName = _players[haveTagsPlayersInt[i].Int].displayName;
                 haveTagsPlayerNames[i] = haveTagsPlayerName;
                 var tagsInfo = (TagsInfo)Instantiate(tagsInfoPrefab.gameObject, transform).GetComponent(typeof(UdonBehaviour));
+                tagsInfo.gameObject.SetActive(true);
                 tagsInfo.tagsManager = this;
                 tagsInfo.SetPlayer(_players[haveTagsPlayersInt[i].Int]);
                 if (data.TryGetValue(haveTagsPlayerName, out var tagsToken))
