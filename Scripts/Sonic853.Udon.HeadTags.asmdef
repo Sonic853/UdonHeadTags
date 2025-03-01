@@ -1,0 +1,18 @@
+{
+    "name": "Sonic853.Udon.HeadTags",
+    "rootNamespace": "",
+    "references": [
+        "VRC.Udon",
+        "UdonSharp.Runtime",
+        "Sonic853.UdonLab.ArrayPlus"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
