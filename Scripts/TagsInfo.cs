@@ -15,7 +15,7 @@ namespace Sonic853.Udon.HeadTags
         /// 离头部的Y轴距离
         /// </summary>
         public float headDistance;
-        public Tag tagPrefab;
+        Tag tagPrefab => tagsManager.tagPrefab;
         public RectTransform tagsContent;
         public Tag[] tags;
         // public string[] tags;

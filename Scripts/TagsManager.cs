@@ -13,6 +13,7 @@ namespace Sonic853.Udon.HeadTags
     public class TagsManager : UdonSharpBehaviour
     {
         public TagsInfo tagsInfoPrefab;
+        public Tag tagPrefab;
         public TagsInfo[] tagsInfos;
         public string[] haveTagsPlayerNames;
         [NonSerialized] DataDictionary tagsData;
