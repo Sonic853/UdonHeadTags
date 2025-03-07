@@ -120,5 +120,16 @@ namespace Sonic853.Udon.HeadTags
         //     }
         //     return names;
         // }
+        public override void OnPlayerJoined(VRCPlayerApi player)
+        {
+            base.OnPlayerJoined(player);
+            UpdateData();
+        }
+        public override void OnPlayerLeft(VRCPlayerApi player)
+        {
+            if (player.isLocal) { return; }
+            base.OnPlayerLeft(player);
+            UpdateData();
+        }
     }
 }
